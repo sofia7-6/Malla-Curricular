@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Malla Curricular</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Malla Curricular - Mi Carrera</h1>
+
+  <div class="semestre">
+    <h2>1° Semestre</h2>
+    <button onclick="marcarAprobado(this)" data-prer="none">Lenguaje Académico</button>
+    <button onclick="marcarAprobado(this)" data-prer="none">Historia Universal I</button>
+  </div>
+
+  <div class="semestre">
+    <h2>2° Semestre</h2>
+    <button onclick="marcarAprobado(this)" data-prer="Historia Universal I">Historia Universal II</button>
+    <button onclick="marcarAprobado(this)" data-prer="Lenguaje Académico">Didáctica General</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
