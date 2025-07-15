@@ -1,0 +1,25 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+.semestre {
+  margin-bottom: 20px;
+}
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+button.aprobado {
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: line-through;
+}
+button.disabled {
+  background-color: #ccc;
+  color: #666;
+  pointer-events: none;
+}
